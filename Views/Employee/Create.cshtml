@@ -1,0 +1,21 @@
+@model EmployeeDto
+
+<form asp-action="Create" method="post">
+    <div>
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label asp-for="City"></label>
+        <input asp-for="City" />
+    </div>
+    <div>
+        <label asp-for="Zip"></label>
+        <input asp-for="Zip" />
+    </div>
+    <button type="submit">Save</button>
+</form>
